@@ -11,7 +11,8 @@
 ## Cards are not removed from the deck as they are drawn.
 
 import random   #importing random module
-from replit import clear  #importing clear->use for clearing console in python  
+import os#importing clear->use for clearing console in python  
+clear=lambda: os.system('cls')
 from art import logo    #importing logo(Ascii art used from internet)
 
 def deal_card():      #deal_card function to return a random card from list below
